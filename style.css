@@ -16,6 +16,9 @@ font-family: "Gabarito", sans-serif;
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .navbar__s1__title{
@@ -31,12 +34,14 @@ font-family: "Gabarito", sans-serif;
     display: flex;
     gap: 10px;
     align-items: center;
+    
 }
 
 .navbar__s2 input{
     border: none;
     font-size: 16px;
     width: 100%;
+    background-color: transparent;
     
 }
 
@@ -140,6 +145,7 @@ margin-top: 10px;
 
 
 }
+
 .footer__one p{
     margin: 20px;
 }
